@@ -7,7 +7,8 @@ import json
 import sys
 import os
 
-# Add parent directory to path
+# Add parent directory to path for testing
+# When running with: python -m unittest discover -s tests
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from app import app

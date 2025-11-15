@@ -3,7 +3,13 @@ AI Service for RVM Schedule Generation
 """
 
 import os
+import logging
 from openai import OpenAI
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 
 class AIScheduleGenerator:
     def __init__(self):
@@ -46,7 +52,7 @@ class AIScheduleGenerator:
                 'participants': participants
             }
         except Exception as e:
-            print(f"AI generation error: {e}")
+            logger.error(f"AI generation error: {e}")
             return self._generate_mock_schedule(date, participants)
     
     def _create_prompt(self, date, participants):
