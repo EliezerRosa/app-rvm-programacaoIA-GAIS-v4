@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RVM Programming AI GAIS v4</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RVM Programming AI GAIS v4</h1>
+            <p>Sistema de Programação Automática para Reunião Vida e Ministério</p>
+        </header>
+
+        <main>
+            <section class="generate-section">
+                <h2>Gerar Programação</h2>
+                <form id="generateForm">
+                    <div class="form-group">
+                        <label for="date">Data da Reunião:</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="participants">Participantes (separados por vírgula):</label>
+                        <textarea id="participants" name="participants" rows="4" placeholder="João Silva, Maria Santos, Pedro Costa..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Gerar Programação</button>
+                </form>
+            </section>
+
+            <section class="result-section" id="resultSection" style="display: none;">
+                <h2>Programação Gerada</h2>
+                <div id="scheduleResult"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 RVM Programming AI GAIS v4</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
