@@ -70,9 +70,11 @@ Crie um arquivo `.env` na raiz do projeto:
 ```env
 OPENAI_API_KEY=sua_chave_api_aqui  # Opcional - para usar IA
 FLASK_ENV=development
-FLASK_DEBUG=1
+FLASK_DEBUG=1  # Use 0 em produção por segurança
 PORT=5000
 ```
+
+**⚠️ Nota de Segurança**: Sempre defina `FLASK_DEBUG=0` em ambientes de produção para evitar exposição de informações sensíveis através do debugger.
 
 **Nota**: A aplicação funciona sem a chave da API OpenAI, usando um gerador de programações simplificado.
 
