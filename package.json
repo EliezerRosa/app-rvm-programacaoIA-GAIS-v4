@@ -1,0 +1,31 @@
+{
+  "name": "designações-na-rvm",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:production": "vite build --mode production",
+    "preview": "vite preview",
+    "preview:production": "npm run build:production && vite preview --port 3000",
+    "lint": "echo 'Linting...' && echo 'No linter configured yet'",
+    "type-check": "tsc --noEmit",
+    "clean": "rimraf dist build .cache",
+    "deploy:netlify": "npm run build:production && echo 'Build ready for Netlify deployment'",
+    "deploy:vercel": "npm run build:production && echo 'Build ready for Vercel deployment'",
+    "serve": "npm run build && npm run preview"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "dexie": "^4.2.1",
+    "@google/genai": "^1.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

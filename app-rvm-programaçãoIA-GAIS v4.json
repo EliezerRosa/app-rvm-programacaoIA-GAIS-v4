@@ -1,0 +1,3674 @@
+{
+  "publishers": [
+    {
+      "id": "1",
+      "name": "José Luiz Fouraux",
+      "gender": "brother",
+      "condition": "Ancião",
+      "phone": "31912345678",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": true,
+        "canConductCBS": true,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": true
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "10",
+      "name": "Neuza",
+      "gender": "sister",
+      "condition": "Publicador",
+      "phone": "31912345687",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": false,
+        "canPray": false,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": false,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": false
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "11",
+      "name": "Beatriz Pessoa",
+      "gender": "sister",
+      "condition": "Publicador",
+      "phone": "31912345688",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": false,
+        "canPray": false,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": false,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": false
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "12",
+      "name": "Maria Izabel",
+      "gender": "sister",
+      "condition": "Publicador",
+      "phone": "31912345689",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": false,
+        "canPray": false,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": false,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": false
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "13",
+      "name": "Marcos Vinícios",
+      "gender": "brother",
+      "condition": "Ancião",
+      "phone": "31912345690",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": true,
+        "canConductCBS": true,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": true
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "14",
+      "name": "Daniel Silva",
+      "gender": "brother",
+      "condition": "Servo Ministerial",
+      "phone": "31912345691",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "15",
+      "name": "Israel Vieira",
+      "gender": "brother",
+      "condition": "Ancião",
+      "phone": "31912345692",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": true,
+        "canConductCBS": true,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": true
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "16",
+      "name": "Diego Fontana",
+      "gender": "brother",
+      "condition": "Ancião",
+      "phone": "31912345693",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": true,
+        "canConductCBS": true,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": true
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "17",
+      "name": "Eliezer Rosa",
+      "gender": "brother",
+      "condition": "Servo Ministerial",
+      "phone": "31912345694",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "18",
+      "name": "Emerson Souza",
+      "gender": "brother",
+      "condition": "Publicador",
+      "phone": "31912345695",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "19",
+      "name": "Felipe de Oliveira",
+      "gender": "brother",
+      "condition": "Publicador",
+      "phone": "31912345696",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "2",
+      "name": "Renato Oliveira",
+      "gender": "brother",
+      "condition": "Ancião",
+      "phone": "31912345679",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": true,
+        "canConductCBS": true,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": true
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "20",
+      "name": "Larissa Queiroz",
+      "gender": "sister",
+      "condition": "Publicador",
+      "phone": "31912345697",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": false,
+        "canPray": false,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": false,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": false
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "21",
+      "name": "Suellen Correa",
+      "gender": "sister",
+      "condition": "Publicador",
+      "phone": "31912345698",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": false,
+        "canPray": false,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": false,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": false
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "22",
+      "name": "Laramara Rosa",
+      "gender": "sister",
+      "condition": "Publicador",
+      "phone": "31912345699",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": false,
+        "canPray": false,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": false,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": false
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "23",
+      "name": "Waleska Nascimento",
+      "gender": "sister",
+      "condition": "Publicador",
+      "phone": "31912345700",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": false,
+        "canPray": false,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": false,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": false
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "24",
+      "name": "Samuel Almeida",
+      "gender": "brother",
+      "condition": "Publicador",
+      "phone": "31912345701",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "25",
+      "name": "Marcos Rogério",
+      "gender": "brother",
+      "condition": "Ancião",
+      "phone": "31912345702",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": true,
+        "canConductCBS": true,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": true
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "26",
+      "name": "Domingos Oliveira",
+      "gender": "brother",
+      "condition": "Ancião",
+      "phone": "31912345703",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": true,
+        "canConductCBS": true,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": true
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "27",
+      "name": "Alexsandro Lopes",
+      "gender": "brother",
+      "condition": "Servo Ministerial",
+      "phone": "31912345704",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "3",
+      "name": "Júnior Fouraux",
+      "gender": "brother",
+      "condition": "Servo Ministerial",
+      "phone": "31912345680",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": true,
+        "canConductCBS": false,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "4",
+      "name": "Carlos Ramos",
+      "gender": "brother",
+      "condition": "Publicador",
+      "phone": "31912345681",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": true,
+        "canPray": true,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": true,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": true
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "5",
+      "name": "Daniele Santos",
+      "gender": "sister",
+      "condition": "Publicador",
+      "phone": "31912345682",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": false,
+        "canPray": false,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": false,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": false
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "6",
+      "name": "Josyane",
+      "gender": "sister",
+      "condition": "Publicador",
+      "phone": "31912345683",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": false,
+        "canPray": false,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": false,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": false
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "7",
+      "name": "Keylla Costa",
+      "gender": "sister",
+      "condition": "Publicador",
+      "phone": "31912345684",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": false,
+        "canPray": false,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": false,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": false
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "8",
+      "name": "Edna",
+      "gender": "sister",
+      "condition": "Publicador",
+      "phone": "31912345685",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": false,
+        "canPray": false,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": false,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": false
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    },
+    {
+      "id": "9",
+      "name": "Márcia Bragança",
+      "gender": "sister",
+      "condition": "Publicador",
+      "phone": "31912345686",
+      "isBaptized": true,
+      "isServing": true,
+      "ageGroup": "Adulto",
+      "parentIds": [],
+      "isHelperOnly": false,
+      "canPairWithNonParent": false,
+      "privileges": {
+        "canGiveTalks": false,
+        "canConductCBS": false,
+        "canReadCBS": false,
+        "canPray": false,
+        "canPreside": false
+      },
+      "privilegesBySection": {
+        "canParticipateInTreasures": false,
+        "canParticipateInMinistry": true,
+        "canParticipateInLife": false
+      },
+      "availability": {
+        "mode": "always",
+        "exceptionDates": []
+      }
+    }
+  ],
+  "participations": [
+    {
+      "publisherName": "Domingos Oliveira",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "0055bf70-a3d2-4436-a7d7-74cffc5f8d8c",
+      "date": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmardo Queiroz",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "01b0becf-7b6a-4a1c-a046-5a7d84758e19",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmilson Pessanha",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "01beaca3-c29f-40f4-8400-2cba637e985c",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Deusedir Amorim",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "02c613f2-6661-4aee-8a79-987456dd004a",
+      "date": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Wanderleia Santos",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "035aafd6-b803-4b88-aba8-6c3f9d67b00c",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Israel Vieira",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Recapitulação do Programa do Congresso",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "036875db-fe35-4da9-a029-bcba59032fb7",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Dayse Campos",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "03f1c070-1629-4d8f-96f7-bff7cdb7860d",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "0619413b-9320-4be3-b053-6ebfd6dc6bee",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Alexsandro Lopes",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "06ac1af4-cf93-4522-8c09-01d6534b86d0",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Keyla Costa",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "090984f5-f31b-477b-bbb6-0fb3dfa867da",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliezer Rosa",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "09fcc851-e569-4c82-a5fe-2cd485dff36e",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Juberto Santos",
+      "week": "11-17 de NOV, 2024",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "0e0560da-7c69-4570-92c0-03bbb9cda668",
+      "date": "2024-11-14T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Mylena Balieira",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "0e65e7e0-2651-4e41-85df-3efa4225f55a",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "André Luiz",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "0ee43d1b-c35e-4189-8ce4-6290052d8c35",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Rogério",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Como evitar sofrimento desnecessário",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "0f34897d-392e-4ce6-a684-94709f7334b6",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Renato Oliveira",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "0f41b776-591e-41e3-8d8b-7f5bfd1c9def",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Erick José",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "1188f405-7e29-49f1-82ec-47d6289660a8",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Felipe de Oliveira",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "1343d90d-2127-4cc3-a0f3-fdcd20ec5fa6",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "136405e5-2cff-45e9-af0c-383ed24254f2",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Samuel Almeida",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "146b412b-7ca1-4ef5-95dc-449fb9617df3",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Daniele Santos",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "1496c31b-65e0-47a3-8435-1ea8c30bce49",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Rogério",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "Pregação de casa em casa — nossa marca registrada",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "16997472-2482-417a-ade4-347121c6d1dc",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Israel Vieira",
+      "week": "9-15 de DEZ, 2024",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "16e68283-3aa3-4db5-b2b5-280258bc004b",
+      "date": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Hidelmar Amorim",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "1813c4ef-5e74-46d7-89d6-4206ca9b4dd6",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Vinícios",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "182f6567-22a9-41a3-901e-440f1ed0bede",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Ana Paula Oliveira",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Fazendo discípulos",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "1844b015-52ba-4b63-9432-1c72e78299cc",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Isabelle Silva",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "198b8265-126c-4235-a1d6-b64cc6bf0e57",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Emerson Souza",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "1a62d3ce-88dd-4652-adc7-53dd62a7c461",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edna Costa",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Explicando suas crenças",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "1cba1b14-24fb-4b23-9936-4c1c7506c36b",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Daniel Silva",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "1d0d88cf-e19b-4bec-835c-ea5f63936372",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliezer Rosa",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Relatório anual de serviço",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "1fce8a5f-9827-4d02-8de8-d5736cc90642",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Rogério",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Demonstrações do nosso amor",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "20128b40-486c-48cb-a2b0-66dc0303a992",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "José Luiz Fouraux",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "20370ed1-445d-49d0-ba6b-f90464d3d663",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Alexsandro Lopes",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "2114eaca-88b2-4289-924a-fbf12cb37516",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Márcia Bragança",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 2,
+      "id": "213089b6-59e9-48ff-a7eb-b91b21cb6d75",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Vinícios",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "214bb67b-0a83-4a13-a103-4bac43372182",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Renato Oliveira",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "21b71b90-0063-4825-815f-6821bd46486c",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Júnior Fouraux",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "Discurso",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "2261262e-51e3-478a-893b-61e7aa0badef",
+      "date": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Alexsandro Lopes",
+      "week": "2-8 de DEZ, 2024",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "23f4c027-06f1-419d-a61a-96ac7c1ca2c1",
+      "date": "2024-12-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Mário Porto",
+      "week": "2-8 de DEZ, 2024",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "259050df-5564-436f-8e87-5bd6ae08b1b9",
+      "date": "2024-12-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Solange Telles",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Explicando suas crenças",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "25a66e64-87a0-49bc-99db-142c25204494",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Samuel Almeida",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "2604d936-1927-4f6b-beaa-a17241709a41",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Samuel Almeida",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "269e79a1-8c5a-4673-877c-6ebe78cdfdc4",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Domingos Oliveira",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Apoie o Rei Jesus!",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "26b9d854-bfbd-476f-bfc9-0a0dccb7db0e",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Olívia Maria",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "278b93e6-8f9e-4568-bd03-b8de1ef90187",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Jacyra Eugênio",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "27c533be-4501-41d8-9a10-9d2cdfa79706",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Elza Elena",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "2848fc1a-17e6-43c1-ac9c-3a00ae28120e",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliezer Rosa",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "288f02e5-bf16-4e7d-9c4d-13eec2e7e0fd",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Emerson França",
+      "week": "2-8 de DEZ, 2024",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "29ccad1a-9e4c-4f01-bbe4-ea8ef263992c",
+      "date": "2024-12-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marilene Queiroz",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "2a8ce4d6-ad14-45fd-8170-c45e90988824",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "João Paulo",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "2b337989-f0d3-49d5-ba12-b1ef81745c0f",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eryck Segall",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "2d8e4ba4-541f-43ba-ba60-46555f7394d9",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Felipe Oliveira",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "304108d9-6e47-4416-8992-272f450bee73",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Maria de Lourdes",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "30d32240-a982-4c1a-8ab8-20bfe8a6a15d",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Eles semearam com lágrimas, mas colheram com alegria",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "30ff97b4-dc14-40ba-80f8-96385114237b",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmilson Monteiro",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "3138157d-e4ba-48c9-b279-680eb79de618",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Renato Oliveira",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "3195c30a-90e2-42ac-b414-dde86017fc18",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Rogério",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Você é um caçador de tesouros?",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "323836d1-aefe-4b24-83c1-3bf6d3b27089",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Vinícios",
+      "week": "2-8 de DEZ, 2024",
+      "partTitle": "Como vou retribuir a Jeová?",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "33b341d3-5cc6-44a0-a486-80a8626d5cb2",
+      "date": "2024-12-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Israel Vieira",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 29,
+      "id": "33c3eff2-0dd9-48c6-a088-933d48ec8632",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Waleska Nascimento",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "3597600e-35ea-4ae4-b7ca-352a3713bb38",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Rogério",
+      "week": "2-8 de DEZ, 2024",
+      "partTitle": "Necessidades locais",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "35a9f956-f599-4c2c-8287-5d239dccfc4c",
+      "date": "2024-12-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Israel Vieira",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "35af7d71-4572-4639-aac3-07e2dbac126f",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Gustavo Rangel",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "36419dd1-c524-4137-93e0-3bbcb3cd15d1",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Vinícios",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "37e30527-9170-4a32-9d2c-910037738721",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Vinícios",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "38300d8b-84c3-4434-8ec9-c721a15020df",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Vitoria Emanuelle",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "38ee4121-0ae5-4f9d-9c9f-bd196ff6e60b",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmardo Queiroz",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Ele se lembra do seu pacto para sempre",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "39653f81-b3f0-4c84-9fb7-46c40339afb2",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Auxiliadora Valéria",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "3a02e32e-0c73-4125-bbf9-27da6e115ff5",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Vitor Pessanha",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "3a044958-0e91-4f63-8d67-9d2d66204e54",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Israel Vieira",
+      "week": "2-8 de DEZ, 2024",
+      "partTitle": "Franqueza — Imite Jesus",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 8,
+      "id": "3a12948b-89c5-4d28-b1cc-19a164710e9c",
+      "date": "2024-12-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "3ad328b1-0f10-4852-ab89-20b287e22363",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Larissa Queiroz",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "3aeddd44-2686-48d5-ae95-e3a445e9b65c",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Juberto Santos",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Discurso",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "3b4564be-96be-4f66-97cb-3b2f6602c79b",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "José Luiz Fouraux",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Jovens — Quem vocês vão escutar?",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "3c004607-461c-4ea1-aba4-7661ed551efe",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Juberto Santos",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "3c1bc8ef-17c9-47fe-b8fd-5ae8375f4bc7",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Elza Elena",
+      "week": "9-15 de DEZ, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "3c6cebc5-6941-4c26-bb2e-8572bd105578",
+      "date": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmardo Queiroz",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "3d6f1aec-ca3b-4012-b3cb-4a3189eb2e9c",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmardo Queiroz",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "3ddec709-15e3-4ab3-8b62-e774ab94211b",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "José Luiz Fouraux",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Cantamos para agradecer a Jeová",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "3e7f3e6d-5d9f-4e88-b585-ab90d9a7bc3d",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Priscila",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "3eebf181-675d-4817-880e-33466eb67292",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Renato Oliveira",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "404d531c-5adb-42bb-9304-6787643c3f03",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edlena Longo",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "425a5c84-b48d-45d7-8010-c1963872936f",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Rogério",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "Será que você seria um bom marido ou uma boa esposa?",
+      "type": "Nossa Vida Cristã",
+      "duration": 7,
+      "id": "45a72486-2a5d-4d5b-aad4-69b610e3f31f",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Júnior Fouraux",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "4677c3e6-4a24-46e4-b44e-89ca81ac1b91",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Felipe Oliveira",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Fazendo discípulos",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "46aa76d7-0396-41d9-ba0c-c6e7b092126d",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Renato Oliveira",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "4778c6be-ad0a-4d01-80e4-eee9ef07980d",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Patrick de Oliveira",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "49476239-4632-45ad-9244-72422a57af13",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Ramos",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "49aaa2d7-5913-4c50-ace0-cea4dc7c3a89",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Israel Vieira",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "4aafd828-e568-4626-b24c-e644330bfbc3",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Erica Vaz",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Explicando suas crenças",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "4b352856-8aea-4fae-af76-86fd1363e4ca",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Vitor Ramos",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "4b6147b0-bd29-4b4f-84c0-99cc2c6bc978",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Samuel Almeida",
+      "week": "2-8 de DEZ, 2024",
+      "partTitle": "Franqueza — O que Jesus fez",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 7,
+      "id": "4b9065b2-90b3-4ce7-ab96-8d837a21af3b",
+      "date": "2024-12-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Vitor Correa",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "4c65b20b-d709-452a-9a88-40e2cb475046",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Érika Segall",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Fazendo discípulos",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "4fa2c7eb-0eaf-4462-976e-ea32d37e69f1",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Daniel Silva",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "51488f91-85ff-467e-a030-2207506ded04",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "José Luiz Fouraux",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "519aa928-b161-4433-bedd-24aa202e7903",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Raquel Oliveira",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "53eb4b00-54d3-4179-930c-b0c408e57772",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Carlos Ramos",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "5410faf8-eb88-4e4e-8aae-8e93695cdada",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Rogério",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Esteja preparado para situações que possam exigir cuidados médicos",
+      "type": "Nossa Vida Cristã",
+      "duration": 10,
+      "id": "550e15ab-0e47-491e-a81a-094fbf9fddcb",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Terezinha Oliveira",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "560c1e3b-3e41-4524-b1d4-dc324f873c97",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "André Luiz",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "575cb3a7-c8f3-45e5-9d15-f50a26d63356",
+      "date": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Israel Vieira",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "5770f7af-56f3-4635-8fd9-18b0bd195200",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Renato Oliveira",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "5786cc4e-e4e8-4bb6-bfba-e452bb52df15",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmilson M",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "58001594-d038-4f95-bef0-bc601f8331e0",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eryck Segall",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "581648a1-7f43-4904-b7c1-448983c07773",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Victor Correa",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "58261615-26ea-4885-9eae-f288966843dc",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Larissa Queiroz",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "59b40afd-1d45-47d1-bbd4-2d44d3453cf3",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Erick José",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "5a0458c2-2828-48a0-8d74-5b51445a478c",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Vinícios",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "5a706358-d72c-4be3-b7a4-ccb56e1120f3",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Vinícios",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "5a74dd58-b527-43d4-a96d-d002bb491529",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Ágatha do Nascimento",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "5ad0c992-2d0e-44ab-8c99-b998672d9533",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Renato Oliveira",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "5b979bcb-ed9b-4d44-8246-2d925dfefacc",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Tainá Reis",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "5d6587c6-d748-4130-97f8-99b2fd69876b",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Israel Vieira",
+      "week": "11-17 de NOV, 2024",
+      "partTitle": "Necessidades locais",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "5de28e47-2eef-4a0c-be74-5f630d605e18",
+      "date": "2024-11-14T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Júnior Fouraux",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "5e605a85-c007-4fca-a825-50f9d0a753dc",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Rogério",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Tenha uma vida feliz e saudável",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "5f2d5806-93f4-4946-8bff-649e99762cbb",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Alexsandro Lopes",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "5f8d7e7d-8fed-4809-a36c-b79c97ba46b7",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Yngrid França",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 2,
+      "id": "5ffa1253-b750-4469-87c0-edf71b3372fb",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Josyane Vieira",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "6092b5d3-7232-4612-8b02-9c041f6d9a5b",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Raquel Oliveira",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "60c8d6ed-a897-4c45-abbb-e98ee5085b4d",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Ágatha Nascimento",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "61ee138e-17e7-4981-abdb-37a5e7c0b99d",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Suellen Correa",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "62d92a5a-6ec7-46eb-a6a8-edab591690fb",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Como podemos apoiar o Reino de Deus de todo o coração?",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "6353f3de-dfab-4fb3-8fa1-fb6df599a646",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Ana Paula",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "6375ade1-5724-4b84-a7f9-4c9821a81bce",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edna Costa",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Fazendo discípulos",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "63a68637-9389-40dc-8b3a-2c803b040865",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Débora Cristine",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "Fazendo discípulos",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "6611e330-38d2-4287-94ef-559caa585efd",
+      "date": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Tainá Reis",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "66488ec3-42dd-4350-b9b4-7d4078333424",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "2-8 de DEZ, 2024",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "66530d83-4a7f-4bce-81da-a349f5d91292",
+      "date": "2024-12-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Mário Porto",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "66bc72a5-8eb1-44f3-8a60-f5212c4e95aa",
+      "date": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Samuel Almeida",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "671bf82d-717c-4a60-8f84-0d5715cdf55d",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Rogério",
+      "week": "9-15 de DEZ, 2024",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 29,
+      "id": "67a966f9-bb0f-4f6b-b012-eea6a0c5e80d",
+      "date": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Keyla Costa",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "684350ab-cc9b-444f-ae37-07d2359cd8d6",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Patrick de Oliveira",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "68485997-ecb8-49e4-b8b4-df4e84d36c0a",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Suellen Correa",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "6cd16a44-f624-4132-887b-90094327c982",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Israel Vieira",
+      "week": "11-17 de NOV, 2024",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "6d3e05f8-5994-4c57-9f90-9c6a39d144d0",
+      "date": "2024-11-14T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliezer Rosa",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "6ef66991-19fa-4a92-8513-f62fc78d3664",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Laramara Rosa",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "71f74963-eaed-4008-af98-436d79e6a34f",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliezer Rosa",
+      "week": "11-17 de NOV, 2024",
+      "partTitle": "Simplicidade — Imite Jesus",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 8,
+      "id": "73bf2734-c0c3-4c13-ac57-3b9fa79a80b0",
+      "date": "2024-11-14T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Maria Izabel",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "74cb7358-ab00-470e-aecc-c21c3766d875",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Emerson Souza",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "\"Aqui estou! Envia-me!\"",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "74f1d93f-b52d-431f-b3db-9ceb2d16b9ef",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliana Souza",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Fazendo discípulos",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "759c8e95-0d07-434c-afea-a6d6870aca35",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Julianne Cravo Figueredo",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "75c39a1e-db53-4c01-bb56-da749eed2a14",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Sandra Duarte",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 2,
+      "id": "7828bbb5-de6c-482c-87c0-a227010fbdac",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliezer Rosa",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "79969614-829b-4056-93d2-f6b1c4362f39",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "José Luiz",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "79fe01ec-bf03-48c5-8a65-20acd9fab504",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Julianne Pereira",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "7a6f002c-227d-40d8-b744-21313cf3e6e4",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "José Luiz Fouraux",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "\"Nosso Senhor é maior do que todos os outros deuses\"",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "7d4e7736-3e4b-4447-900a-5bf71d4bdd50",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Samuel Almeida",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "7df200ad-00d2-4c59-95a1-f06e2b32d4ad",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Rogério",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "7e68d1d0-eafa-433b-850d-4e909ac32dc4",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Olívia Porto",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "7f37c52f-d5a8-4ec4-87fd-06c5427db0c2",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmilson Monteiro",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Esperança para os que estão ‘carregados de erro’",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "7f85a41e-fb70-4aae-b44b-fdfb2d09f8e7",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliezer Rosa",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Por que se dedicar ao seu estudo pessoal?",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "7fa504e4-bb73-4e5b-af12-38e3b7c766d2",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliezer Rosa",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Não deixe o dinheiro fazer você sofrer desnecessariamente",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "7fa8d370-40b4-4e3b-a6b4-6a497e4e0739",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "\"A pessoa generosa será abençoada\"",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "7fecffe4-1ac7-4710-93fb-f0fe329277ee",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Gérson Santos",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "7ffa8d13-c6b8-4ed1-8b48-b44ad4422828",
+      "date": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Júnior Fouraux",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "80295763-ce73-474f-8437-80dcba5ff6c6",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Michele Camillo",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "8064fc84-78e4-49bb-b995-fc6ee3da34b2",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmardo Queiroz",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "80d0a616-d6a4-44c2-9d2e-bb5ead05dbf0",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "82e35626-e306-4869-af82-37696a8fdd86",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Neuza Campanha",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "85d66e75-e1f2-4c52-b48c-847a1c0cb48a",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmardo Queiroz",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "85f2aaed-529e-4492-8801-d44911981ff2",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Gérson Santos",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "88450237-c9e3-4d06-bc4b-dbcd32e1b337",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Domingos Oliveira",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "890a036f-4b8d-4ce9-a2b2-c3e113686299",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Antônio Nascimento",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "8b76b941-5d67-438f-b832-77a41e72a05b",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Emerson França",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Discurso",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "8f922d7e-02d9-4d4c-a491-eae2317c3a3b",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Renato Oliveira",
+      "week": "11-17 de NOV, 2024",
+      "partTitle": "Esqueceram-se de Deus, seu Salvador",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "913cc597-2bb6-41d4-a71b-a3a113832b3b",
+      "date": "2024-11-14T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Malena Colangero",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "9378722b-c414-4a95-9dcb-13f3c91cdd0a",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Vitoria Emanuelle",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "93a27ccc-49f5-487b-9948-130067c4ed6e",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Júnior Fouraux",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "942d39b7-0faa-433f-b1b7-93d0fbe9b031",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Domingos Oliveira",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "94da86e1-8874-40d0-be43-f76870627a42",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmardo Queiroz",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "95e56892-36ea-4dd9-9ff1-2b7cb8eaf53b",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Terezinha Oliveira",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "965cafd9-6b40-491a-953d-317a93fc26fb",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Emerson Souza",
+      "week": "11-17 de NOV, 2024",
+      "partTitle": "Simplicidade — O que Jesus fez",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 7,
+      "id": "969f947e-a8d1-4cdb-84cb-ab05bd529134",
+      "date": "2024-11-14T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Vinícios",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "979b6433-8ed1-499b-b2d6-49e58d6beda5",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Keylla Costa",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 2,
+      "id": "97b9389a-5ba0-41a3-b42c-dbf1a97f5dab",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Rozelita Sales",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 1,
+      "id": "9823c93f-fd4f-4654-adfb-1415c70e30c5",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Isabelle Cruz Silva",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "9876f7e1-01e0-4a93-b9be-534ec9f22e81",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Vinícius Pessanha",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "988723be-edf0-45a3-940f-5aaba48413f4",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Alexsandro Lopes",
+      "week": "9-15 de DEZ, 2024",
+      "partTitle": "\"Como um jovem pode manter puro o seu caminho?\"",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "98aa39bd-e964-4c96-85c8-ece5f9529e61",
+      "date": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "André Luiz",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "99418efa-e0ea-476e-ac25-828f74c0c3e7",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "José Luiz Fouraux",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "994793d8-e208-4c7d-b5c5-62806d3b8bf8",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Antônio Nascimento",
+      "week": "9-15 de DEZ, 2024",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "99a56893-bdec-45df-85f3-61c9b2d9c80f",
+      "date": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Felipe Oliveira",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "9b5f701a-4c33-4c13-8a8a-e2e914ad008b",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Antônio Miguel",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "Discurso",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "9cc31919-6d6d-41a0-a18d-c6c67e193744",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Waleska Nascimento",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "9cf12b86-3fc0-4187-87d1-0d627a8c211f",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmardo Queiroz",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Necessidades locais",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "9d92645a-496f-47a2-8186-fc74089f0893",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Josyane",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "9e936dad-3373-40b2-9715-ccc3140db0cf",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Gabriel Fouraux",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "a00af2be-4f18-4806-b698-2b06d18f7579",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Antônio Nascimento",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "a07f2e45-e096-409f-b11c-27b42a76eeb9",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Wanderleia Santos",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "a10a585d-02b6-42ba-b75b-38e6881c9509",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Carlos Ramos",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "a1124544-dd54-4b35-8947-e0c405bf0ff8",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Ágatha Nascimento",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "a16ce34c-edb9-480f-94d3-fb0e0dd991a7",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Vitoria Emanuelle",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "a1aac0db-9449-4daa-a9a5-d2c9901d5040",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Fernando Pessoa",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "a214cec6-4cd0-4c00-bde6-1fa1f32f4869",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Saymon Schultz",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "a354d730-cb64-424e-aa96-de387f7bc7be",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Rogério",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Necessidades locais",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "a3e82d85-0fa1-4c59-8c35-564239425605",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliana Souza",
+      "week": "9-15 de DEZ, 2024",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "a493393d-b63d-454b-8dc0-983070324262",
+      "date": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcela Resmann",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "a643a3ae-2b05-4d66-bdf5-986f00c916d6",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Alexsandro Lopes",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "\"Feliz o povo cujo Deus é Jeová!\"",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "a706e3b1-659a-47fa-9303-d6dfcf629ebd",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Domingos Oliveira",
+      "week": "11-17 de NOV, 2024",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "a76c1e1f-943a-456f-824b-abe7651398a0",
+      "date": "2024-11-14T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Domingos O",
+      "week": "2-8 de DEZ, 2024",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "a76ca96e-7f56-42f1-926d-2d793249262f",
+      "date": "2024-12-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Vitor Ramos",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "a782f5ce-249b-4b5d-8181-38221ee03731",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Alexsandro Lopes",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "a8402544-5e6d-4e18-9c3d-3b502a322c2c",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Claudio Vieira",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "aa0c8573-f623-4920-af4a-5911a47d3692",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Yngrid França",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "aa558c86-8019-402c-890c-dbb2c4240059",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "José Luiz Fouraux",
+      "week": "9-15 de DEZ, 2024",
+      "partTitle": "Discurso",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "aa71d8da-f41f-418e-8aa1-acd9b7385404",
+      "date": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Felipe de Oliveira",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "aabf4561-6836-4c0f-bb44-711122d1fd9d",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Juberto Santos",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Alegre-se com as promessas de Deus",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "ab60a298-518d-4b8d-83bf-ed4ebf1d4733",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Daniel Silva",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "ab8848b7-912e-46d8-9273-f9ec9f1c1233",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Samuel Almeida",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Discurso",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "ab907aba-83f5-4cdc-b34f-8eb680285ce3",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Claudio Vieira",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "ad254934-cbae-49fd-89ca-20c1cacf674f",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Ana Paula Oliveira",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "ad256d32-c439-4e05-a6a6-832a14d25a2b",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Josyane Vieira",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "ad32e888-87a7-411b-8373-04b75ef8455a",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "André Luiz",
+      "week": "11-17 de NOV, 2024",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "aee285cf-bcb4-489f-8d87-4578c900b79d",
+      "date": "2024-11-14T00:00:00.000Z"
+    },
+    {
+      "publisherName": "João Paulo",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "b0716bfc-0662-47a3-a342-a565009a01c7",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Wanderleia Santos",
+      "week": "9-15 de DEZ, 2024",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "b071c481-bc6b-47d8-b999-d363067d2793",
+      "date": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Vinícios",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "b231c9d0-8e88-4655-808a-a4ee3783c2ea",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Israel Vieira",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "b2e1034c-efb9-4588-a028-1dd6ff571f1c",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Israel Vieira",
+      "week": "9-15 de DEZ, 2024",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "b3537915-4092-4ec6-8a04-369e1ff7ea44",
+      "date": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Carlos Ramos",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Discurso",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "b3b5a080-caf7-4a08-a9c3-3d73c70f67fe",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Antônio Miguel",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "b4a726dc-f486-4d49-9a67-04464fb39f18",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Samuel Almeida",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "b594d35a-30e4-4840-a37d-d4aa83d01195",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Dione Guimarães",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "b659ac0c-bf95-4d2d-8104-5b06d3e6a1c5",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmardo Queiroz",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "b73ba292-f4a3-46cc-851c-79830d836f2e",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Patrick Oliveira",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "A importância da beleza interior",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "b7e6c146-e1c5-41f0-b75f-d7ebe5095067",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliezer Rosa",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Agradeçam a Jeová, pois ele é bom",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "b836cc82-26a2-4cd5-a3ff-12d88b60e08d",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Emerson Souza",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "Você pode se sair bem no ministério apesar da timidez",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "b899766e-df76-4cce-8241-b541c940381a",
+      "date": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Ágatha Nascimento",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "b933ad17-5f38-44b8-a0d9-0bde4051a008",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmardo Queiroz",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "b946da20-3932-4835-9995-34bf6037bfa8",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Érika Segall",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "ba0fb25e-ac98-4d53-b7ab-0879df7724bb",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "João Marcos P. Costa (SC)",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "Amor - O perfeito vínculo de união",
+      "type": "Nossa Vida Cristã",
+      "id": "ba370c3f-5e40-41d2-9e05-c69888fdc44e",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Neuza",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "ba3b02d2-b3ca-48b8-a33a-41dbd32d8a81",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmardo Queiroz",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "bbfe0d34-79ed-40d7-910a-78c060f62097",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Emerson Souza",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "bc516912-7b7e-4e3c-86b2-3341ed72de8f",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Saniyuriss Reis",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "bcbbf5e6-b8c9-4de9-9f52-c77fc8ef9f02",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Vinícios",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "O nervosismo não precisa impedir você de participar nas reuniões",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "bddd7bda-a17b-4b2b-8dba-58e3de2d704d",
+      "date": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Felipe Oliveira",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Torne-se Amigo de Jeová — Jeová nos Perdoa",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "be176229-ebff-4a5b-af48-ff5645beae24",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Domingos Oliveira",
+      "week": "27 de JAN - 2 de FEV, 2025",
+      "partTitle": "Aja de acordo com suas súplicas por ajuda",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "be18fcc2-4fda-45ce-96a7-3fa783dd639e",
+      "date": "2025-01-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Gustavo Rangel",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "bf7bf230-7574-40a3-917d-1a14c87bfeeb",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Daniel Silva",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "bf923d8c-fc40-4b07-ac53-b7f09e2475de",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Vinícios",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "bfedc4e7-e247-4545-945e-d2c7f059d222",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Domingos Oliveira",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "c12481e5-bbac-437d-ba96-a3e058b8fd1b",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "c3fe2cb4-7db5-4530-94ab-4b2883a1c902",
+      "date": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Saymon Schultz",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "c579b072-577f-43cb-ac0d-11846e21b2a9",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Ariane Bello",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "c6182d0d-0940-4725-a92b-f61a59769c07",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliezer Rosa",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "c8502e51-ab99-496f-a993-ef295647c6ff",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Israel Vieira",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "c9dd962d-4eef-4d99-a6ce-b987e5039e89",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Juberto Santos",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "ca77c058-10f0-458f-bcf1-f1fac50e3948",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Yngrid França",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "cc272a05-56a8-4d86-8955-f9df9977cfb7",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Victor Correa",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "cc415476-5f9e-4e50-9cc3-d625a93ab166",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edna",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "cd05faa0-cd2e-4428-bea3-093ede482087",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Patrick Oliveira",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Temos muitos motivos para louvar a Jah",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "cdd7fffc-8fef-4584-803f-d160c72577e7",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Emerson Souza",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "ce1190c9-b5d1-47c5-969c-475b9511bade",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Antônio Miguel",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "cef28fca-8a9a-4440-a83a-ccdc0fa93f19",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Gabriel Fouraux",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "cf6f76cd-5bd1-4b0c-b593-c3699bd9690f",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Domingos Oliveira",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "d1458ab8-4b15-4b6f-a873-7071e8354a0f",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Terezinha Oliveira",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "d1832ac8-9251-4e08-9e53-da5e52ea2d0b",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Carlos Ramos",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "d1841763-f186-475a-98e2-aa67ba3377c1",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Inêz Monteiro",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "d34a59a6-acb2-42c2-9a80-b2c47852f993",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Luciana Alves",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "d36feb00-dc66-4bfa-b633-644d1bc2749a",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Alexsandro Lopes",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "d3d2f3b3-8290-41ce-90e4-c4bad33f59e0",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Júnior Fouraux",
+      "week": "9-15 de DEZ, 2024",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "d4ae6204-d11b-4fa3-97f9-b9543095222b",
+      "date": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Márcia Bragança",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "d6715bd2-5f6d-404e-86dd-bb99ecc1b6dd",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Renato Oliveira",
+      "week": "1-7 de DEZ, 2025",
+      "partTitle": "Jeová merecia e esperava obediência do seu povo",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "d6906c7c-8ce6-4a1f-ad0f-cd3d7893a25f",
+      "date": "2025-12-03T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliezer Rosa",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "d70cd736-9377-4488-a5e3-2ec95b56b151",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Necessidades locais",
+      "type": "Nossa Vida Cristã",
+      "duration": 5,
+      "id": "d733ab05-f318-4619-afcb-3aed4f1db4d1",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Daniele Santos",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 2,
+      "id": "d8e9f4aa-4fad-484d-a2db-be7dce977c88",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Juberto Santos",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Como perseverar diante de dificuldades",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "d95d489b-e678-4b85-b252-6aeb45f3e35f",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "João Marcos P. Costa (SC)",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "d9f85126-54a7-4e65-a071-627ac565ff06",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Renato Oliveira",
+      "week": "23-29 de DEZ, 2024",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "db25cb7c-7a7e-4e2f-92e6-d4594c3d9ae5",
+      "date": "2024-12-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "André Luiz",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "db4dc96b-4f60-485d-a364-d91e2361127b",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Rogério",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "dc0d64a2-313b-41f2-a204-d9832fcce6f8",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Júnior Fouraux",
+      "week": "9-15 de DEZ, 2024",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "dda0f158-770a-4232-bd2c-b1d9db1061c4",
+      "date": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Jacyra Eugênio",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "dda588aa-01c9-4ea2-816d-48395ce31fbe",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Gustavo Rangel",
+      "week": "13-19 de JAN, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "ddf9c172-751c-4bf0-a962-9ceac45bd30b",
+      "date": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Suellen Correa",
+      "week": "8-14 de DEZ, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 3,
+      "id": "dedb3287-698d-4f27-95ae-b8d529d93f71",
+      "date": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Maria Izabel",
+      "week": "10-16 de NOV, 2025",
+      "partTitle": "Iniciando conversas",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "e14871dd-fa26-4553-97e3-2d250a3c84fc",
+      "date": "2025-11-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Daniel Silva",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "e19e8fe8-eba1-4081-a04d-8fca4bdadcdb",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Domingos Oliveira",
+      "week": "11-17 de NOV, 2024",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "e39ab66e-21dd-4766-a775-5a79db1e1def",
+      "date": "2024-11-14T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Renato Oliveira",
+      "week": "30 de DEZ, 2024 - 5 de JAN, 2025",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "e6cd029c-eeca-41ba-93f0-7698aad18cf3",
+      "date": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Waleska Nascimento",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "e7a429cf-87c8-4256-9e73-0ed62d6e00e2",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marcos Vinícios",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "e984e324-a338-441b-862b-d60cf5b9bc56",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eryck José",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "ec3fd63a-2fca-40e5-92ed-039ba3d5a5bb",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "ecc1db94-3aeb-4754-8d5a-96098ba84675",
+      "date": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Getúlio Rastoldo",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "ed022bbd-667e-47fc-a52c-7322f216675c",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Waleska Nascimento",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Explicando suas crenças",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "ef7fb0b2-dd36-4753-ae27-30c042ba2f71",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Beatriz Pessoa",
+      "week": "17-23 de FEV, 2025",
+      "partTitle": "Fazendo discípulos",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "f0028cf9-87f8-4dbc-9312-553c9ec07c70",
+      "date": "2025-02-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Gabriel Fouraux",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "f07bdc81-42f2-41e7-9fb9-5f7fa3f7c0c7",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "f0b8618b-b655-4ec1-9a70-c2b8ad5289dc",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Carlos Ramos",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "f24fa74d-d0fb-48b9-9280-b7ca2fbed4c4",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Gabriel Camilo",
+      "week": "9-15 de DEZ, 2024",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "f2666fd7-f737-4832-995b-a3d4243275ee",
+      "date": "2024-12-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Getúlio Rastoldo",
+      "week": "2-8 de DEZ, 2024",
+      "partTitle": "Leitor",
+      "type": "Leitor do EBC",
+      "id": "f363483c-a20a-494c-8762-b5a56cf5ef73",
+      "date": "2024-12-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Alexsandro Lopes",
+      "week": "10-16 de FEV, 2025",
+      "partTitle": "Discurso",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "f38acc46-da23-4985-8d72-aaab16fc3197",
+      "date": "2025-02-12T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "2-8 de DEZ, 2024",
+      "partTitle": "Presidente",
+      "type": "Presidente",
+      "id": "f40d309d-7ce3-4c92-8863-1c06e500e3a8",
+      "date": "2024-12-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Emerson Souza",
+      "week": "24 de FEV - 2 de MAR, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "f4509490-eb5e-4d94-8544-1fe4fc93d2ca",
+      "date": "2025-02-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Dirigente",
+      "type": "Dirigente do EBC",
+      "duration": 30,
+      "id": "f5324a2f-170d-4cfb-b538-95838e915a26",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Renato Oliveira",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Oração Final",
+      "type": "Oração Final",
+      "id": "f5d00b4d-b3c0-4717-958f-f6625ca85f05",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Emerson Souza",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Uma história de amor verdadeiro",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "f64b4226-17e1-46b4-8e0b-39c8bf5d5966",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "José Luiz Fouraux",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "f6629f2f-0e42-4ec7-b134-c8055b4cc9fe",
+      "date": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eliezer Rosa",
+      "week": "4-10 de NOV, 2024",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "f6d92ed4-0bc1-4555-ab60-8c7d614d360e",
+      "date": "2024-11-07T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Eryck Segall",
+      "week": "3-9 de NOV, 2025",
+      "partTitle": "Cultivando o interesse",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 4,
+      "id": "f6e2570c-2dec-4706-a700-6e42b1995846",
+      "date": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Samuel Almeida",
+      "week": "3-9 de FEV, 2025",
+      "partTitle": "Jeová quer que você seja feliz",
+      "type": "Nossa Vida Cristã",
+      "duration": 10,
+      "id": "f84a7ed8-370e-48bc-895d-1d35a8135e23",
+      "date": "2025-02-05T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Rozelita Sales",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "f87bcfbf-fc2f-49cc-ad86-5fa490e9d182",
+      "date": "2025-01-22T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Renato Oliveira",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Jeová nos ajuda a perseverar",
+      "type": "Nossa Vida Cristã",
+      "duration": 15,
+      "id": "fb6b8e08-a587-4541-9493-c726d3327cc5",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Débora Cristine",
+      "week": "16-22 de DEZ, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "fbc5300a-9e8f-44a5-b3b1-d728b366972e",
+      "date": "2024-12-19T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Edmardo Queiroz",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Joias espirituais",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 10,
+      "id": "fc0140e9-f2d9-4e65-a423-3ea99e5b88b9",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Marilene Queiroz",
+      "week": "25 de NOV - 1 de DEZ, 2024",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "fc11d3bb-3511-48ab-be96-b195bac6e3c2",
+      "date": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Diego Fontana",
+      "week": "24-30 de NOV, 2025",
+      "partTitle": "Oração Inicial",
+      "type": "Oração Inicial",
+      "id": "fc86537e-4379-4fd9-8041-dcc83392760e",
+      "date": "2025-11-26T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Saymon Schultz",
+      "week": "18-24 de NOV, 2024",
+      "partTitle": "Leitura da Bíblia",
+      "type": "Tesouros da Palavra de Deus",
+      "duration": 4,
+      "id": "ff7b8c74-6f05-4fea-8455-1544bb37a7c3",
+      "date": "2024-11-21T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Fernando Balieira",
+      "week": "27 de OUT - 2 de NOV, 2025",
+      "partTitle": "Discurso",
+      "type": "Faça Seu Melhor no Ministério",
+      "duration": 5,
+      "id": "ff9995ee-8b75-4d13-985c-f9fc4bd17b45",
+      "date": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "publisherName": "Suellen Correa",
+      "week": "20-26 de JAN, 2025",
+      "partTitle": "Ajudante",
+      "type": "Ajudante",
+      "id": "ff9e0d1e-47b8-491d-a565-a0cf2605156c",
+      "date": "2025-01-22T00:00:00.000Z"
+    }
+  ],
+  "workbooks": [
+    {
+      "id": "0e78937e-7732-4c17-8538-91d4e9c08cf8",
+      "name": "Nossa Vida e Ministério Cristão - Jan/Fev 2026",
+      "fileData": "JVBERi0xLjcKJcPDgw0KMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFI+PgplbmRvYmoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkcyBbMyAwIFJdPj4KZW5kb2JqCjMgMCBvYmoKPDwvVHlwZS9QYWdlL1BhcmVudCAyIDAgUi9SZXNvdXJjZXM8PC9Gb250PDwvRjEgNCAwIFI+Pj4+L01lZGlhQm94WzAgMCA1OTUgODQyXS9Db250ZW50cyA1IDAgUj4+CmVuZG9iago0IDAgb2JqCjw8L1R5cGUvRm9udC9TdWJ0eXBlL1R5cGUxL0Jhc2VGb250L0hlbHZldGljYT4+CmVuZG9iago1IDAgb2JqCjw8L0xlbmd0aCA3MT4+CnN0cmVhbQpCVCAvRjEgMTIgVGYgNzIgNzcwIFRkIChBcG9zdGlsYSBkZSBFeGVtcGxvIC0gVmlkYSBlIE1pbmlzdGVyaW8pIFRqIEVUCmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE5IDAwMDAwIG4gCjAwMDAwMDAwNzQgMDAwMDAwIG4gCjAwMDAwMDAxMjEgMDAwMDAwIG4gCjAwMDAwMDAyNzAgMDAwMDAwIG4gCjAwMDAwMDAzNDEgMDAwMDAwIG4gCnRyYWlsZXIKPDwvU2l6ZSA2L1Jvb3QgMSAwIFI+PgpzdGFydHhyZWYKNDQxCiUlRU9GCg==",
+      "uploadDate": "2026-01-01T10:00:00.000Z"
+    },
+    {
+      "id": "65c67846-0990-4a9e-9794-6259c75d707a",
+      "name": "Nossa Vida e Ministério Cristão - Mar/Abr 2026",
+      "fileData": "JVBERi0xLjcKJcPDgw0KMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFI+PgplbmRvYmoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkcyBbMyAwIFJdPj4KZW5kb2JqCjMgMCBvYmoKPDwvVHlwZS9QYWdlL1BhcmVudCAyIDAgUi9SZXNvdXJjZXM8PC9Gb250PDwvRjEgNCAwIFI+Pj4+L01lZGlhQm94WzAgMCA1OTUgODQyXS9Db250ZW50cyA1IDAgUj4+CmVuZG9iago0IDAgb2JqCjw8L1R5cGUvRm9udC9TdWJ0eXBlL1R5cGUxL0Jhc2VGb250L0hlbHZldGljYT4+CmVuZG9iago1IDAgb2JqCjw8L0xlbmd0aCA3MT4+CnN0cmVhbQpCVCAvRjEgMTIgVGYgNzIgNzcwIFRkIChBcG9zdGlsYSBkZSBFeGVtcGxvIC0gVmlkYSBlIE1pbmlzdGVyaW8pIFRqIEVUCmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE5IDAwMDAwIG4gCjAwMDAwMDAwNzQgMDAwMDAwIG4gCjAwMDAwMDAxMjEgMDAwMDAwIG4gCjAwMDAwMDAyNzAgMDAwMDAwIG4gCjAwMDAwMDAzNDEgMDAwMDAwIG4gCnRyYWlsZXIKPDwvU2l6ZSA2L1Jvb3QgMSAwIFI+PgpzdGFydHhyZWYKNDQxCiUlRU9GCg==",
+      "uploadDate": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "id": "f68de272-6a1c-4730-b58c-25458c37189a",
+      "name": "Nossa Vida e Ministério Cristão - Nov/Dez 2025",
+      "fileData": "JVBERi0xLjcKJcPDgw0KMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFI+PgplbmRvYmoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkcyBbMyAwIFJdPj4KZW5kb2JqCjMgMCBvYmoKPDwvVHlwZS9QYWdlL1BhcmVudCAyIDAgUi9SZXNvdXJjZXM8PC9Gb250PDwvRjEgNCAwIFI+Pj4+L01lZGlhQm94WzAgMCA1OTUgODQyXS9Db250ZW50cyA1IDAgUj4+CmVuZG9iago0IDAgb2JqCjw8L1R5cGUvRm9udC9TdWJ0eXBlL1R5cGUxL0Jhc2VGb250L0hlbHZldGljYT4+CmVuZG9iago1IDAgb2JqCjw8L0xlbmd0aCA3MT4+CnN0cmVhbQpCVCAvRjEgMTIgVGYgNzIgNzcwIFRkIChBcG9zdGlsYSBkZSBFeGVtcGxvIC0gVmlkYSBlIE1pbmlzdGVyaW8pIFRqIEVUCmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE5IDAwMDAwIG4gCjAwMDAwMDAwNzQgMDAwMDAwIG4gCjAwMDAwMDAxMjEgMDAwMDAwIG4gCjAwMDAwMDAyNzAgMDAwMDAwIG4gCjAwMDAwMDAzNDEgMDAwMDAwIG4gCnRyYWlsZXIKPDwvU2l6ZSA2L1Jvb3QgMSAwIFI+PgpzdGFydHhyZWYKNDQxCiUlRU9GCg==",
+      "uploadDate": "2025-11-01T10:00:00.000Z"
+    }
+  ],
+  "rules": [
+    {
+      "id": "03cf2f5b-d9a4-41e1-87cf-f270401ba2b5",
+      "description": "Irmãs só podem ser designadas para partes na seção 'Faça Seu Melhor no Ministério' ou como Ajudante.",
+      "isActive": true,
+      "conditions": [
+        {
+          "fact": "gender",
+          "operator": "equal",
+          "value": "sister"
+        },
+        {
+          "fact": "partType",
+          "operator": "notIn",
+          "value": [
+            "Faça Seu Melhor no Ministério",
+            "Ajudante"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12becdac-904c-4961-b895-4904da28814f",
+      "description": "Apenas irmãos podem ser Leitores do Estudo Bíblico.",
+      "isActive": true,
+      "conditions": [
+        {
+          "fact": "partType",
+          "operator": "equal",
+          "value": "Leitor do EBC"
+        },
+        {
+          "fact": "gender",
+          "operator": "equal",
+          "value": "sister"
+        }
+      ]
+    },
+    {
+      "id": "3af16549-5d8f-43c1-b634-3ce201f467c1",
+      "description": "Não designar publicadores que não estão atuantes.",
+      "isActive": true,
+      "conditions": [
+        {
+          "fact": "isServing",
+          "operator": "equal",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "3d3a742a-1c61-4df3-bfdc-d6488cdd2012",
+      "description": "Apenas irmãos batizados podem fazer a oração.",
+      "isActive": true,
+      "conditions": [
+        {
+          "fact": "partType",
+          "operator": "in",
+          "value": [
+            "Oração Inicial",
+            "Oração Final"
+          ]
+        },
+        {
+          "fact": "isBaptized",
+          "operator": "equal",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "43ff1147-784a-4aeb-90c9-d3ef9a5e9192",
+      "description": "Apenas anciãos ou servos ministeriais podem presidir a reunião.",
+      "isActive": true,
+      "conditions": [
+        {
+          "fact": "partType",
+          "operator": "equal",
+          "value": "Presidente"
+        },
+        {
+          "fact": "condition",
+          "operator": "notIn",
+          "value": [
+            "Ancião",
+            "Servo Ministerial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "696351ca-d1fd-402f-b72b-edefe5bb1a0a",
+      "description": "Publicadores marcados como 'Só Ajudante' não podem receber partes principais.",
+      "isActive": true,
+      "conditions": [
+        {
+          "fact": "isHelperOnly",
+          "operator": "equal",
+          "value": true
+        },
+        {
+          "fact": "partType",
+          "operator": "notEqual",
+          "value": "Ajudante"
+        }
+      ]
+    },
+    {
+      "id": "8c04e98a-c138-45cf-ab60-80a60795bc04",
+      "description": "Apenas irmãos que podem presidir podem fazer a oração inicial.",
+      "isActive": true,
+      "conditions": [
+        {
+          "fact": "partType",
+          "operator": "equal",
+          "value": "Oração Inicial"
+        },
+        {
+          "fact": "canPreside",
+          "operator": "equal",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "99975771-06ab-4cd8-9882-e1be090745ce",
+      "description": "Apenas anciãos podem dirigir o Estudo Bíblico de Congregação.",
+      "isActive": true,
+      "conditions": [
+        {
+          "fact": "partType",
+          "operator": "equal",
+          "value": "Dirigente do EBC"
+        },
+        {
+          "fact": "condition",
+          "operator": "notEqual",
+          "value": "Ancião"
+        }
+      ]
+    },
+    {
+      "id": "a74e44cc-cbab-4ec4-896f-8228a991be6a",
+      "description": "Não designar publicadores em datas em que não estão disponíveis.",
+      "isActive": true,
+      "conditions": [
+        {
+          "fact": "isAvailable",
+          "operator": "equal",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "be4e3f6c-08a4-49dc-9d4f-231931bdc8cc",
+      "description": "Irmãs não podem ser designadas para partes do tipo 'Discurso'.",
+      "isActive": true,
+      "conditions": [
+        {
+          "fact": "gender",
+          "operator": "equal",
+          "value": "sister"
+        },
+        {
+          "fact": "partTitle",
+          "operator": "contains",
+          "value": "Discurso"
+        }
+      ]
+    },
+    {
+      "id": "eb26c00c-2a3c-4a36-af81-50bd46b5e6bb",
+      "description": "Irmãos (não A/SM) podem participar em 'Tesouros' apenas na 'Leitura da Bíblia'.",
+      "isActive": true,
+      "conditions": [
+        {
+          "fact": "condition",
+          "operator": "notIn",
+          "value": [
+            "Ancião",
+            "Servo Ministerial"
+          ]
+        },
+        {
+          "fact": "partType",
+          "operator": "equal",
+          "value": "Tesouros da Palavra de Deus"
+        },
+        {
+          "fact": "partTitle",
+          "operator": "notEqual",
+          "value": "Leitura da Bíblia"
+        }
+      ]
+    }
+  ]
+}

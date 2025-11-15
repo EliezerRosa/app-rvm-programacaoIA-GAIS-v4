@@ -1,0 +1,5 @@
+{
+  "name": "Designações na RVM",
+  "description": "Um aplicativo CRUD para gerenciar publicadores, histórico de participações e apostilas das reuniões, com armazenamento local persistente.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,63 @@
+import { Publisher } from '../types';
+
+const defaultBrotherPrivileges = {
+  canParticipateInTreasures: true,
+  canParticipateInMinistry: true,
+  canParticipateInLife: true,
+};
+
+const defaultSisterPrivileges = {
+  canParticipateInTreasures: false,
+  canParticipateInMinistry: true,
+  canParticipateInLife: false,
+};
+
+const defaultAvailability = {
+  mode: 'always' as const,
+  exceptionDates: [],
+};
+
+// NOVO: Adiciona valores padrão para os novos campos.
+const defaultNewFields = {
+    ageGroup: 'Adulto' as const,
+    parentIds: [],
+    isHelperOnly: false,
+    canPairWithNonParent: false,
+};
+
+export const initialPublishers: Publisher[] = [
+    { id: '1', name: 'José Luiz Fouraux', gender: 'brother', condition: 'Ancião', phone: '31912345678', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: true, canConductCBS: true, canReadCBS: true, canPray: true, canPreside: true }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '2', name: 'Renato Oliveira', gender: 'brother', condition: 'Ancião', phone: '31912345679', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: true, canConductCBS: true, canReadCBS: true, canPray: true, canPreside: true }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '3', name: 'Júnior Fouraux', gender: 'brother', condition: 'Servo Ministerial', phone: '31912345680', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: true, canConductCBS: false, canReadCBS: true, canPray: true, canPreside: false }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '4', name: 'Carlos Ramos', gender: 'brother', condition: 'Publicador', phone: '31912345681', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: true, canPray: true, canPreside: false }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '5', name: 'Daniele Santos', gender: 'sister', condition: 'Publicador', phone: '31912345682', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '6', name: 'Josyane', gender: 'sister', condition: 'Publicador', phone: '31912345683', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '7', name: 'Keylla Costa', gender: 'sister', condition: 'Publicador', phone: '31912345684', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '8', name: 'Edna', gender: 'sister', condition: 'Publicador', phone: '31912345685', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '9', name: 'Márcia Bragança', gender: 'sister', condition: 'Publicador', phone: '31912345686', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '10', name: 'Neuza', gender: 'sister', condition: 'Publicador', phone: '31912345687', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '11', name: 'Beatriz Pessoa', gender: 'sister', condition: 'Publicador', phone: '31912345688', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '12', name: 'Maria Izabel', gender: 'sister', condition: 'Publicador', phone: '31912345689', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '13', name: 'Marcos Vinícios', gender: 'brother', condition: 'Ancião', phone: '31912345690', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: true, canConductCBS: true, canReadCBS: true, canPray: true, canPreside: true }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '14', name: 'Daniel Silva', gender: 'brother', condition: 'Servo Ministerial', phone: '31912345691', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: true, canPray: true, canPreside: false }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '15', name: 'Israel Vieira', gender: 'brother', condition: 'Ancião', phone: '31912345692', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: true, canConductCBS: true, canReadCBS: true, canPray: true, canPreside: true }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '16', name: 'Diego Fontana', gender: 'brother', condition: 'Ancião', phone: '31912345693', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: true, canConductCBS: true, canReadCBS: true, canPray: true, canPreside: true }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '17', name: 'Eliezer Rosa', gender: 'brother', condition: 'Servo Ministerial', phone: '31912345694', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: true, canPray: true, canPreside: false }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '18', name: 'Emerson Souza', gender: 'brother', condition: 'Publicador', phone: '31912345695', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: true, canPray: true, canPreside: false }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '19', name: 'Felipe de Oliveira', gender: 'brother', condition: 'Publicador', phone: '31912345696', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: true, canPray: true, canPreside: false }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '20', name: 'Larissa Queiroz', gender: 'sister', condition: 'Publicador', phone: '31912345697', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '21', name: 'Suellen Correa', gender: 'sister', condition: 'Publicador', phone: '31912345698', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '22', name: 'Laramara Rosa', gender: 'sister', condition: 'Publicador', phone: '31912345699', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '23', name: 'Waleska Nascimento', gender: 'sister', condition: 'Publicador', phone: '31912345700', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '24', name: 'Samuel Almeida', gender: 'brother', condition: 'Publicador', phone: '31912345701', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: true, canPray: true, canPreside: false }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '25', name: 'Marcos Rogério', gender: 'brother', condition: 'Ancião', phone: '31912345702', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: true, canConductCBS: true, canReadCBS: true, canPray: true, canPreside: true }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '26', name: 'Domingos Oliveira', gender: 'brother', condition: 'Ancião', phone: '31912345703', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: true, canConductCBS: true, canReadCBS: true, canPray: true, canPreside: true }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '27', name: 'Alexsandro Lopes', gender: 'brother', condition: 'Servo Ministerial', phone: '31912345704', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: true, canPray: true, canPreside: false }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    
+    // NOVOS: Casos de teste para validar regras críticas
+    { id: '28', name: 'Pedro Silva (Criança)', gender: 'brother', condition: 'Publicador', phone: '31912345705', isBaptized: false, isServing: true, ageGroup: 'Criança', parentIds: ['1', '29'], isHelperOnly: false, canPairWithNonParent: false, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: { canParticipateInTreasures: false, canParticipateInMinistry: true, canParticipateInLife: false }, availability: defaultAvailability },
+    { id: '29', name: 'Ana Silva (Mãe de Pedro)', gender: 'sister', condition: 'Publicador', phone: '31912345706', isBaptized: true, isServing: true, ...defaultNewFields, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '30', name: 'Lucas Santos (Jovem)', gender: 'brother', condition: 'Publicador', phone: '31912345707', isBaptized: true, isServing: true, ageGroup: 'Jovem', parentIds: [], isHelperOnly: false, canPairWithNonParent: false, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: true, canPray: true, canPreside: false }, privilegesBySection: defaultBrotherPrivileges, availability: defaultAvailability },
+    { id: '31', name: 'Maria Costa (Só Ajudante)', gender: 'sister', condition: 'Publicador', phone: '31912345708', isBaptized: true, isServing: true, ageGroup: 'Adulto', parentIds: [], isHelperOnly: true, canPairWithNonParent: false, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: defaultSisterPrivileges, availability: defaultAvailability },
+    { id: '32', name: 'Sofia Oliveira (Criança Autorizada)', gender: 'sister', condition: 'Publicador', phone: '31912345709', isBaptized: false, isServing: true, ageGroup: 'Criança', parentIds: ['2'], isHelperOnly: false, canPairWithNonParent: true, privileges: { canGiveTalks: false, canConductCBS: false, canReadCBS: false, canPray: false, canPreside: false }, privilegesBySection: { canParticipateInTreasures: false, canParticipateInMinistry: true, canParticipateInLife: false }, availability: defaultAvailability },
+];
