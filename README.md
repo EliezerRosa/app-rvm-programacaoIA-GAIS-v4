@@ -37,3 +37,16 @@ npm run build:production
 ```
 
 Os artefatos serão gerados em `dist/` e podem ser enviados para Netlify, Vercel ou servidos via Docker/nginx conforme descrito em `DEPLOY.md`.
+
+### Deploy rápido no Netlify
+
+1. **Crie um site** em <https://app.netlify.com/> usando "Add new site → Deploy manually" ou conecte este repositório via Git.
+2. **Configure a variável de ambiente:** em *Site settings → Build & deploy → Environment* adicione `GEMINI_API_KEY` com o mesmo token usado localmente.
+3. **Defina o build (caso use Git connect):**
+   - Build command: `npm run build:production`
+   - Publish directory: `dist`
+   - Node version: `18`
+4. **Fazendo upload manual:** após `npm run build:production`, faça upload da pasta `dist/` ou use `netlify deploy --dir=dist --prod` com o Netlify CLI.
+5. **Teste após o deploy:** abra a URL gerada e confirme que as funcionalidades dependentes da IA funcionam (IA Scheduler, formulários, etc.).
+
+Se preferir outra infra (Vercel, Docker ou nginx), consulte os detalhes em `DEPLOY.md`.
