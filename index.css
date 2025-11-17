@@ -6,6 +6,15 @@
   --page-surface: #f8fafc;
   --page-surface-dark: #020617;
   --text-primary: #0f172a;
+  --header-height: 4.5rem;
+  --toolbar-offset: calc(var(--header-height) + 1.25rem);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --header-height: 4.25rem;
+    --toolbar-offset: calc(var(--header-height) + 0.65rem);
+  }
 }
 
 *, *::before, *::after {
@@ -60,6 +69,7 @@ body::before {
   backdrop-filter: blur(18px);
   border-bottom: 1px solid rgba(148, 163, 184, 0.25);
   box-shadow: 0 20px 45px rgba(15, 23, 42, 0.09);
+  min-height: var(--header-height);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,58 +81,70 @@ body::before {
 }
 
 .app-tabs {
-  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem;
+  border-radius: 999px;
+  background: rgba(99, 102, 241, 0.12);
+  border: 1px solid rgba(99, 102, 241, 0.25);
+  box-shadow: 0 15px 35px rgba(15, 23, 42, 0.08);
+  backdrop-filter: blur(14px);
 }
 
 .app-tab {
-  position: relative;
-  padding-inline: 1rem;
-  font-weight: 500;
-  color: #94a3b8;
-  transition: color 0.2s ease, transform 0.2s ease;
-}
-
-.app-tab::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -1px;
-  height: 3px;
-  border-radius: 999px 999px 0 0;
+  border: none;
   background: transparent;
-  transition: background 0.2s ease;
+  padding: 0.65rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #475569;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
 .app-tab:hover {
-  color: #4338ca;
+  color: var(--brand-primary);
 }
 
 .app-tab.is-active {
+  background: #ffffff;
   color: var(--brand-primary);
-  transform: translateY(1px);
+  box-shadow: 0 12px 28px rgba(79, 70, 229, 0.25);
 }
 
-.app-tab.is-active::after {
-  background: linear-gradient(90deg, var(--brand-primary), var(--brand-secondary));
+.app-tab:focus-visible {
+  outline: 2px solid rgba(79, 70, 229, 0.5);
+  outline-offset: 2px;
 }
 
 @media (prefers-color-scheme: dark) {
+  .app-tabs {
+    background: rgba(15, 23, 42, 0.7);
+    border-color: rgba(99, 102, 241, 0.35);
+    box-shadow: 0 15px 35px rgba(2, 6, 23, 0.85);
+  }
   .app-tab {
     color: #cbd5f5;
   }
   .app-tab.is-active {
-    color: #c7d2fe;
+    background: rgba(99, 102, 241, 0.2);
+    color: #e0e7ff;
   }
 }
 
 .page-toolbar {
+  position: sticky;
+  top: var(--toolbar-offset);
+  z-index: 15;
   background: rgba(255, 255, 255, 0.9);
   border-radius: 22px;
   border: 1px solid rgba(99, 102, 241, 0.2);
   box-shadow: 0 25px 45px rgba(15, 23, 42, 0.09);
   backdrop-filter: blur(18px);
   padding: clamp(1rem, 2vw, 1.5rem);
+  margin-top: 1rem;
 }
 
 .page-toolbar select,
@@ -171,13 +193,47 @@ body::before {
   mix-blend-mode: screen;
 }
 
-.ai-highlight-card button {
-  background-color: rgba(255, 255, 255, 0.2) !important;
-  border-color: transparent !important;
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.65rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #ffffff;
+  background: linear-gradient(120deg, var(--brand-primary), var(--brand-secondary));
+  border: none;
+  box-shadow: 0 20px 35px rgba(79, 70, 229, 0.25);
+  cursor: pointer;
 }
 
-.ai-highlight-card button:hover {
-  background-color: rgba(255, 255, 255, 0.32) !important;
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 25px 40px rgba(79, 70, 229, 0.3);
+}
+
+.cta-button:focus-visible {
+  outline: 2px solid rgba(99, 102, 241, 0.45);
+  outline-offset: 2px;
+}
+
+.cta-button--success {
+  background: linear-gradient(120deg, #059669, #10b981);
+  box-shadow: 0 20px 35px rgba(5, 150, 105, 0.25);
+}
+
+.cta-button--ghost {
+  background: rgba(248, 250, 252, 0.92);
+  color: #0f172a;
+  box-shadow: 0 12px 25px rgba(15, 23, 42, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  .cta-button--ghost {
+    color: #0f172a;
+  }
 }
 
 .hero-panel {

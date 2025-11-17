@@ -460,13 +460,14 @@ const App: React.FC = () => {
                             <input type="file" ref={importInputRef} onChange={handleImportFileSelect} accept="application/json" className="hidden"/>
                         </div>
                     </div>
-                    <div className="border-b border-gray-200 dark:border-gray-700">
-                        <div className="app-tabs flex space-x-4 -mb-px">
+                    <div className="border-b border-transparent py-3">
+                        <div className="app-tabs" role="tablist">
                             { (['schedule', 'participations', 'publishers', 'workbooks', 'ai-assignments'] as Tab[]).map(tab => (
                                 <button
                                     key={tab}
+                                    type="button"
                                     onClick={() => setActiveTab(tab)}
-                                    className={`app-tab py-4 px-1 border-b-2 font-medium text-sm ${activeTab === tab ? 'is-active border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}`}
+                                    className={`app-tab ${activeTab === tab ? 'is-active' : ''}`}
                                 >
                                     {tabLabels[tab]}
                                 </button>
@@ -492,10 +493,10 @@ const App: React.FC = () => {
                     <>
                         {activeTab === 'publishers' && (
                             <div>
-                                <div className="page-toolbar sticky top-[7.25rem] z-20 pt-4 bg-gray-100 dark:bg-gray-900">
+                                <div className="page-toolbar z-20">
                                     <div className="flex justify-between items-center mb-4">
                                         <h2 className="text-2xl font-bold">Publicadores</h2>
-                                        <button onClick={() => openPublisherForm(null)} className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Adicionar Publicador</button>
+                                        <button onClick={() => openPublisherForm(null)} className="cta-button">Adicionar Publicador</button>
                                     </div>
                                     <div className="glass-panel mb-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4 bg-white dark:bg-gray-800/50 rounded-lg">
                                         <input type="text" placeholder="Buscar por nome..." value={publisherSearchTerm} onChange={e => setPublisherSearchTerm(e.target.value)} className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm text-gray-900 dark:text-gray-100"/>
@@ -524,10 +525,10 @@ const App: React.FC = () => {
 
                         {activeTab === 'participations' && (
                             <div>
-                                <div className="page-toolbar sticky top-[7.25rem] z-20 pt-4 bg-gray-100 dark:bg-gray-900">
+                                <div className="page-toolbar z-20">
                                     <div className="flex justify-between items-center mb-4">
                                         <h2 className="text-2xl font-bold">Participações</h2>
-                                        <button onClick={() => openParticipationForm(null)} className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Adicionar Participação</button>
+                                        <button onClick={() => openParticipationForm(null)} className="cta-button">Adicionar Participação</button>
                                     </div>
                                     <div className="glass-panel mb-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4 bg-white dark:bg-gray-800/50 rounded-lg">
                                         <input type="text" placeholder="Buscar por nome ou parte..." value={participationSearchTerm} onChange={e => setParticipationSearchTerm(e.target.value)} className="px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm text-gray-900 dark:text-gray-100"/>
@@ -546,13 +547,13 @@ const App: React.FC = () => {
                         
                         {activeTab === 'schedule' && (
                             <div>
-                                <div className="page-toolbar sticky top-[7.25rem] z-20 flex flex-col sm:flex-row justify-between items-center py-4 gap-4 bg-gray-100 dark:bg-gray-900">
+                                <div className="page-toolbar z-20 flex flex-col sm:flex-row justify-between items-center gap-4">
                                     <h2 className="text-2xl font-bold">Pauta das Reuniões</h2>
                                      <div className="flex items-center gap-4">
                                         <select value={scheduleWeekFilter} onChange={e => setScheduleWeekFilter(e.target.value)} className="w-full sm:w-auto pl-3 pr-10 py-2 text-base border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm rounded-md">
                                             {uniqueWeeks.map(week => <option key={week} value={week}>{week === 'Todas' ? 'Todas as Semanas' : week}</option>)}
                                         </select>
-                                        <button onClick={() => setIsScheduleUploadModalOpen(true)} className="px-4 py-2 text-sm font-medium text-white bg-green-600 border border-transparent rounded-md shadow-sm hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 whitespace-nowrap">Adicionar Pauta de PDF</button>
+                                        <button onClick={() => setIsScheduleUploadModalOpen(true)} className="cta-button cta-button--success whitespace-nowrap">Adicionar Pauta de PDF</button>
                                     </div>
                                 </div>
                                 <MeetingSchedule scheduleData={filteredScheduleData} publishers={publishers} onEditWeek={handleEditWeek} onOpenPrintableView={handleOpenPrintableSchedule}/>
@@ -561,10 +562,10 @@ const App: React.FC = () => {
 
                         {activeTab === 'workbooks' && (
                             <div>
-                                <div className="page-toolbar sticky top-[7.25rem] z-20 pt-4 bg-gray-100 dark:bg-gray-900">
+                                <div className="page-toolbar z-20">
                                     <div className="flex justify-between items-center mb-4">
                                         <h2 className="text-2xl font-bold">Apostilas</h2>
-                                        <button onClick={() => openWorkbookModal(null)} className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Upload de Apostila</button>
+                                        <button onClick={() => openWorkbookModal(null)} className="cta-button">Upload de Apostila</button>
                                     </div>
                                     <div className="glass-panel mb-4 p-4">
                                         <input type="text" placeholder="Buscar por nome da apostila..." value={workbookSearchTerm} onChange={e => setWorkbookSearchTerm(e.target.value)} className="w-full max-w-xs px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm text-gray-900 dark:text-gray-100"/>
@@ -579,7 +580,7 @@ const App: React.FC = () => {
                                 <div className="ai-highlight-card text-center p-8">
                                     <h2 className="text-2xl font-bold mb-2 text-white">Designações por IA</h2>
                                     <p className="text-white/80 mb-6">Deixe a IA gerar uma sugestão de pauta para uma semana futura com base no histórico e nas regras.</p>
-                                    <button onClick={() => setIsAiSchedulerModalOpen(true)} className="px-6 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Gerar Pauta com IA</button>
+                                    <button onClick={() => setIsAiSchedulerModalOpen(true)} className="cta-button cta-button--ghost">Gerar Pauta com IA</button>
                                 </div>
                             </div>
                         )}
