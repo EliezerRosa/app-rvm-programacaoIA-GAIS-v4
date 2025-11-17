@@ -20,31 +20,45 @@ const MeetingSchedule: React.FC<MeetingScheduleProps> = ({ scheduleData, publish
     const renderPart = (part: RenderablePart, partNumber: number) => {
         let title = part.partTitle;
         let name = part.publisherName;
-        const durationText = part.duration ? `(${part.duration} min)` : '';
-        
-        if (part.type === ParticipationType.DIRIGENTE) title = "Estudo Bíblico de Congregação";
+        const durationText = part.duration ? `${part.duration} min` : '';
 
-        if(part.pair) {
+        if (part.type === ParticipationType.DIRIGENTE) title = 'Estudo Bíblico de Congregação';
+
+        if (part.pair) {
             if (part.type === ParticipationType.DIRIGENTE) {
-                name = `${part.publisherName} (Dirigente) / ${part.pair.publisherName} (Leitor)`;
-            } else { // Assumed student/helper
-                name = `${part.publisherName} / ${part.pair.publisherName}`;
+                name = `${part.publisherName} (Dirigente) · ${part.pair.publisherName} (Leitor)`;
+            } else {
+                name = `${part.publisherName} · ${part.pair.publisherName}`;
             }
         }
 
         return (
-             <div key={part.id} className="grid grid-cols-2 gap-4 py-2 border-b border-gray-200 dark:border-gray-700 last:border-b-0 items-baseline">
-                <span className="text-sm text-gray-800 dark:text-gray-300">{partNumber}. {title}</span>
-                <div className="text-sm text-gray-600 dark:text-gray-400 justify-self-end text-right">
-                    <span className="mr-4">{name}</span>
-                    <span className="text-gray-400 dark:text-gray-500 w-12 inline-block text-right">{durationText}</span>
+            <div key={part.id} className="schedule-row">
+                <div>
+                    <span className="schedule-row__label">{partNumber}. {title}</span>
+                </div>
+                <div className="schedule-row__meta">
+                    <span className="schedule-row__person">{name}</span>
+                    {durationText && <span className="schedule-row__duration">{durationText}</span>}
                 </div>
             </div>
         );
-    }
+    };
+
+    const renderPrayerRow = (label: string, publisherName: string | undefined) => {
+        if (!publisherName) return null;
+        return (
+            <div className="schedule-row schedule-row--prayer">
+                <span className="schedule-row__label">{label}</span>
+                <div className="schedule-row__meta">
+                    <span className="schedule-row__person">{publisherName}</span>
+                </div>
+            </div>
+        );
+    };
 
     return (
-        <div className="space-y-8">
+        <div className="schedule-stack">
             {sortedSchedule.map((meeting) => {
                 const mainParts = getOrderedAndPairedParts(meeting.parts, publishers);
                 const president = meeting.parts.find(p => p.type === ParticipationType.PRESIDENTE);
@@ -57,48 +71,48 @@ const MeetingSchedule: React.FC<MeetingScheduleProps> = ({ scheduleData, publish
                 
                 let partCounter = 1;
 
+                const sections = [
+                    { key: 'treasures', label: 'TESOUROS DA PALAVRA DE DEUS', parts: treasuresParts },
+                    { key: 'ministry', label: 'FAÇA SEU MELHOR NO MINISTÉRIO', parts: ministryParts },
+                    { key: 'life', label: 'NOSSA VIDA CRISTÃ', parts: lifeParts }
+                ];
+
                 return (
-                    <div key={meeting.week} className="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6">
-                        <div className="flex justify-between items-start mb-4">
+                    <div key={meeting.week} className="schedule-card">
+                        <div className="schedule-card__header">
                             <div>
-                                <h3 className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">{meeting.week}</h3>
-                                {president && <p className="text-md text-gray-600 dark:text-gray-400">Presidente: {president.publisherName}</p>}
+                                <span className="schedule-card__eyebrow">Congregação Estância</span>
+                                <h3 className="schedule-card__title">Programação da reunião do meio de semana</h3>
+                                <p className="schedule-card__week">{meeting.week}</p>
+                                {president && (
+                                    <p className="schedule-card__meta">Presidente: {president.publisherName}</p>
+                                )}
                             </div>
-                             <div className="flex items-center space-x-2">
-                                <button onClick={() => onOpenPrintableView(meeting)} className="p-2 text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-500" title="Visualizar Pauta">
+                            <div className="schedule-card__actions">
+                                <button onClick={() => onOpenPrintableView(meeting)} className="icon-pill" title="Visualizar pauta">
                                     <EyeIcon className="w-5 h-5" />
                                 </button>
-                                <button onClick={() => onEditWeek(meeting)} className="p-2 text-gray-500 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-500" title="Editar Pauta">
+                                <button onClick={() => onEditWeek(meeting)} className="icon-pill" title="Editar pauta">
                                     <PencilIcon className="w-5 h-5" />
                                 </button>
                             </div>
                         </div>
-                        
-                        <div className="space-y-6">
-                           {openingPrayer && <div className="grid grid-cols-2 gap-4 py-2 border-b border-gray-200 dark:border-gray-700 font-medium"><span>Oração Inicial:</span><span className="justify-self-end text-right">{openingPrayer.publisherName}</span></div>}
-                           
-                           {treasuresParts.length > 0 && (
-                               <div>
-                                   <h4 className="font-bold text-lg text-white bg-[#4A5568] dark:bg-blue-900/50 rounded-md px-3 py-1 mb-2">TESOUROS DA PALAVRA DE DEUS</h4>
-                                   {treasuresParts.map(p => renderPart(p, partCounter++))}
-                               </div>
-                           )}
-                           
-                           {ministryParts.length > 0 && (
-                               <div>
-                                   <h4 className="font-bold text-lg text-white bg-[#D69E2E] dark:bg-yellow-900/50 rounded-md px-3 py-1 mt-4 mb-2">FAÇA SEU MELHOR NO MINISTÉRIO</h4>
-                                   {ministryParts.map(p => renderPart(p, partCounter++))}
-                               </div>
-                           )}
 
-                           {lifeParts.length > 0 && (
-                               <div>
-                                   <h4 className="font-bold text-lg text-white bg-[#C53030] dark:bg-red-900/50 rounded-md px-3 py-1 mt-4 mb-2">NOSSA VIDA CRISTÃ</h4>
-                                   {lifeParts.map(p => renderPart(p, partCounter++))}
-                               </div>
-                           )}
+                        <div className="schedule-card__body">
+                            {renderPrayerRow('Oração inicial', openingPrayer?.publisherName)}
 
-                           {closingPrayer && <div className="grid grid-cols-2 gap-4 py-2 border-t border-gray-200 dark:border-gray-700 mt-4 font-medium"><span>Oração Final:</span><span className="justify-self-end text-right">{closingPrayer.publisherName}</span></div>}
+                            {sections.map(section => (
+                                section.parts.length ? (
+                                    <section key={section.key} className={`schedule-section schedule-section--${section.key}`}>
+                                        <div className="schedule-section__title">{section.label}</div>
+                                        <div className="schedule-section__body">
+                                            {section.parts.map(part => renderPart(part, partCounter++))}
+                                        </div>
+                                    </section>
+                                ) : null
+                            ))}
+
+                            {renderPrayerRow('Oração final', closingPrayer?.publisherName)}
                         </div>
                     </div>
                 );

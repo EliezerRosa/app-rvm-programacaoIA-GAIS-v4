@@ -447,20 +447,18 @@ const App: React.FC = () => {
 
     return (
         <div className="app-shell bg-gray-100 dark:bg-gray-900 min-h-screen text-gray-800 dark:text-gray-200">
-            <header className="app-header bg-white dark:bg-gray-800 shadow-md sticky top-0 z-30">
+            <header className="app-header bg-white dark:bg-gray-900 shadow-sm sticky top-0 z-30">
                 <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center justify-between h-16">
-                        <div className="flex items-center">
-                            <h1 className="text-xl font-bold text-indigo-600 dark:text-indigo-400">Designações na RVM</h1>
-                        </div>
-                        <div className="flex items-center space-x-2">
-                             <button onClick={handleExportData} className="p-2 rounded-full text-gray-500 hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none" title="Exportar Todos os Dados"><ArrowDownTrayIcon className="h-6 w-6" /></button>
-                             <button onClick={() => importInputRef.current?.click()} className="p-2 rounded-full text-gray-500 hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none" title="Importar Dados (Substitui os atuais)"><ArrowUpTrayIcon className="h-6 w-6" /></button>
-                             <button onClick={() => setIsRuleManagerOpen(true)} className="p-2 rounded-full text-gray-500 hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none" title="Gerenciar Regras"><CogIcon className="h-6 w-6" /></button>
+                    <div className="header-bar">
+                        <h1 className="app-title">Designações na RVM</h1>
+                        <div className="header-actions">
+                             <button onClick={handleExportData} className="icon-pill" title="Exportar todos os dados"><ArrowDownTrayIcon className="h-5 w-5" /></button>
+                             <button onClick={() => importInputRef.current?.click()} className="icon-pill" title="Importar dados (substitui os atuais)"><ArrowUpTrayIcon className="h-5 w-5" /></button>
+                             <button onClick={() => setIsRuleManagerOpen(true)} className="icon-pill" title="Gerenciar regras"><CogIcon className="h-5 w-5" /></button>
                             <input type="file" ref={importInputRef} onChange={handleImportFileSelect} accept="application/json" className="hidden"/>
                         </div>
                     </div>
-                    <div className="border-b border-transparent py-3">
+                    <div className="tabs-bar">
                         <div className="app-tabs" role="tablist">
                             { (['schedule', 'participations', 'publishers', 'workbooks', 'ai-assignments'] as Tab[]).map(tab => (
                                 <button
@@ -496,7 +494,7 @@ const App: React.FC = () => {
                                 <div className="page-toolbar z-20">
                                     <div className="flex justify-between items-center mb-4">
                                         <h2 className="text-2xl font-bold">Publicadores</h2>
-                                        <button onClick={() => openPublisherForm(null)} className="cta-button">Adicionar Publicador</button>
+                                        <button onClick={() => openPublisherForm(null)} className="btn btn--primary">Adicionar Publicador</button>
                                     </div>
                                     <div className="glass-panel mb-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4 bg-white dark:bg-gray-800/50 rounded-lg">
                                         <input type="text" placeholder="Buscar por nome..." value={publisherSearchTerm} onChange={e => setPublisherSearchTerm(e.target.value)} className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm text-gray-900 dark:text-gray-100"/>
@@ -528,7 +526,7 @@ const App: React.FC = () => {
                                 <div className="page-toolbar z-20">
                                     <div className="flex justify-between items-center mb-4">
                                         <h2 className="text-2xl font-bold">Participações</h2>
-                                        <button onClick={() => openParticipationForm(null)} className="cta-button">Adicionar Participação</button>
+                                        <button onClick={() => openParticipationForm(null)} className="btn btn--primary">Adicionar Participação</button>
                                     </div>
                                     <div className="glass-panel mb-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4 bg-white dark:bg-gray-800/50 rounded-lg">
                                         <input type="text" placeholder="Buscar por nome ou parte..." value={participationSearchTerm} onChange={e => setParticipationSearchTerm(e.target.value)} className="px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm text-gray-900 dark:text-gray-100"/>
@@ -553,7 +551,7 @@ const App: React.FC = () => {
                                         <select value={scheduleWeekFilter} onChange={e => setScheduleWeekFilter(e.target.value)} className="w-full sm:w-auto pl-3 pr-10 py-2 text-base border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm rounded-md">
                                             {uniqueWeeks.map(week => <option key={week} value={week}>{week === 'Todas' ? 'Todas as Semanas' : week}</option>)}
                                         </select>
-                                        <button onClick={() => setIsScheduleUploadModalOpen(true)} className="cta-button cta-button--success whitespace-nowrap">Adicionar Pauta de PDF</button>
+                                        <button onClick={() => setIsScheduleUploadModalOpen(true)} className="btn btn--success whitespace-nowrap">Adicionar Pauta de PDF</button>
                                     </div>
                                 </div>
                                 <MeetingSchedule scheduleData={filteredScheduleData} publishers={publishers} onEditWeek={handleEditWeek} onOpenPrintableView={handleOpenPrintableSchedule}/>
@@ -565,7 +563,7 @@ const App: React.FC = () => {
                                 <div className="page-toolbar z-20">
                                     <div className="flex justify-between items-center mb-4">
                                         <h2 className="text-2xl font-bold">Apostilas</h2>
-                                        <button onClick={() => openWorkbookModal(null)} className="cta-button">Upload de Apostila</button>
+                                        <button onClick={() => openWorkbookModal(null)} className="btn btn--primary">Upload de Apostila</button>
                                     </div>
                                     <div className="glass-panel mb-4 p-4">
                                         <input type="text" placeholder="Buscar por nome da apostila..." value={workbookSearchTerm} onChange={e => setWorkbookSearchTerm(e.target.value)} className="w-full max-w-xs px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-indigo-600 focus:border-indigo-600 sm:text-sm text-gray-900 dark:text-gray-100"/>
@@ -580,7 +578,7 @@ const App: React.FC = () => {
                                 <div className="ai-highlight-card text-center p-8">
                                     <h2 className="text-2xl font-bold mb-2 text-white">Designações por IA</h2>
                                     <p className="text-white/80 mb-6">Deixe a IA gerar uma sugestão de pauta para uma semana futura com base no histórico e nas regras.</p>
-                                    <button onClick={() => setIsAiSchedulerModalOpen(true)} className="cta-button cta-button--ghost">Gerar Pauta com IA</button>
+                                    <button onClick={() => setIsAiSchedulerModalOpen(true)} className="btn btn--ghost">Gerar Pauta com IA</button>
                                 </div>
                             </div>
                         )}
