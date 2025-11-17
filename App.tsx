@@ -19,6 +19,7 @@ import AiSchedulerModal from './components/AiSchedulerModal';
 import AiScheduleResultsModal from './components/AiScheduleResultsModal';
 import { generateAiSchedule } from './lib/aiScheduler';
 import ScheduleUploadModal from './components/ScheduleUploadModal';
+import HeroSummary from './components/HeroSummary';
 
 
 type Tab = 'schedule' | 'participations' | 'publishers' | 'workbooks' | 'ai-assignments';
@@ -397,6 +398,39 @@ const App: React.FC = () => {
     
     const filteredWorkbooks = useMemo(() => workbooks.filter(w => w.name.toLowerCase().includes(workbookSearchTerm.toLowerCase())), [workbooks, workbookSearchTerm]);
 
+    const upcomingWeekLabel = useMemo(() => {
+        const nextWeek = uniqueWeeks.find(week => week !== 'Todas');
+        return nextWeek ?? 'Nenhuma pauta disponível';
+    }, [uniqueWeeks]);
+
+    const heroStats = useMemo(() => {
+        const activePublishers = publishers.filter(p => p.isServing).length;
+        const youthPublishers = publishers.filter(p => ['Jovem', 'Criança'].includes(p.ageGroup)).length;
+        const latestWorkbook = workbooks[0]?.name ?? 'Sem uploads';
+        return [
+            {
+                label: 'Publicadores cadastrados',
+                value: publishers.length.toString(),
+                helper: `${activePublishers} atuantes · ${youthPublishers} jovens`,
+            },
+            {
+                label: 'Participações registradas',
+                value: participations.length.toString(),
+                helper: `Próxima pauta: ${upcomingWeekLabel}`,
+            },
+            {
+                label: 'Apostilas disponíveis',
+                value: workbooks.length.toString(),
+                helper: `Mais recente: ${latestWorkbook}`,
+            },
+        ];
+    }, [publishers, participations, workbooks, upcomingWeekLabel]);
+
+    const handleHeroAction = () => {
+        setActiveTab('ai-assignments');
+        setIsAiSchedulerModalOpen(true);
+    };
+
     // FIX: Fixes a TypeScript type inference error by reordering the type guards.
     // By checking for the common 'name' property first, which exists on Publisher and Workbook,
     // we correctly handle those types. The `if` path for `partTitle` then correctly infers the type as Participation.
@@ -442,7 +476,16 @@ const App: React.FC = () => {
                 </nav>
             </header>
 
-            <main className="container mx-auto p-4 sm:p-6 lg:p-8">
+            <main className="container mx-auto p-4 sm:p-6 lg:p-8 flex flex-col gap-8">
+                {!isLoading && (
+                    <HeroSummary
+                        title="Painel inteligente da RVM"
+                        subtitle="Acompanhe publicadores, pautas e automações em um só lugar com o suporte da IA."
+                        stats={heroStats}
+                        actionLabel="Gerar pauta inteligente"
+                        onAction={handleHeroAction}
+                    />
+                )}
                 {isLoading ? (
                     <p>Carregando dados...</p>
                 ) : (

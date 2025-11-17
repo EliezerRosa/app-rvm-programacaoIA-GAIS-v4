@@ -12,93 +12,72 @@ interface ParticipationTableProps {
 
 const ParticipationTable: React.FC<ParticipationTableProps> = ({ participations, onEdit, onDelete }) => {
   
-  const getTypeColor = (type: ParticipationType) => {
+  const getTypeChip = (type: ParticipationType) => {
     switch (type) {
-        case ParticipationType.TESOUROS: return 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300';
-        case ParticipationType.MINISTERIO: return 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300';
-        case ParticipationType.VIDA_CRISTA: return 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300';
+        case ParticipationType.TESOUROS:
+            return { className: 'chip chip--primary', accent: 'accent--indigo' };
+        case ParticipationType.MINISTERIO:
+            return { className: 'chip chip--amber', accent: 'accent--amber' };
+        case ParticipationType.VIDA_CRISTA:
+            return { className: 'chip chip--rose', accent: 'accent--rose' };
         case ParticipationType.ORACAO_INICIAL:
         case ParticipationType.ORACAO_FINAL:
-             return 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300';
+            return { className: 'chip chip--success', accent: 'accent--green' };
         case ParticipationType.PRESIDENTE:
         case ParticipationType.DIRIGENTE:
-             return 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300';
-        default: return 'bg-gray-100 text-gray-800 dark:bg-gray-600 dark:text-gray-200';
+            return { className: 'chip chip--purple', accent: 'accent--purple' };
+        default:
+            return { className: 'chip', accent: 'accent--neutral' };
     }
+  };
+
+  const formatDate = (date: string) => {
+    if (!date) return 'Data não informada';
+    try {
+        return new Date(date).toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' });
+    } catch (error) {
+        return date;
+    }
+  };
+
+  if (participations.length === 0) {
+    return (
+        <div className="empty-state">
+            <p>Nenhuma participação lançada ainda. Use o botão “Adicionar Participação”.</p>
+        </div>
+    );
   }
 
   return (
-    <div className="bg-white dark:bg-gray-800 shadow-md rounded-lg overflow-hidden">
-        {/* Desktop Table View */}
-        <div className="hidden md:block">
-            <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
-            <thead className="bg-gray-50 dark:bg-gray-700">
-                <tr>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Nome</th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Semana</th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Parte</th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Tipo</th>
-                <th scope="col" className="relative px-6 py-3">
-                    <span className="sr-only">Ações</span>
-                </th>
-                </tr>
-            </thead>
-            <tbody className="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
-                {participations.map((p) => (
-                <tr key={p.id} className="hover:bg-gray-50 dark:hover:bg-gray-700">
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 dark:text-gray-100">{p.publisherName}</td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">{p.week}</td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">{p.partTitle}</td>
-                    <td className="px-6 py-4 whitespace-nowrap">
-                        <span className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${getTypeColor(p.type)}`}>
-                            {p.type}
-                        </span>
-                    </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                        <div className="flex items-center justify-end space-x-4">
-                            <button onClick={() => onEdit(p)} className="text-indigo-600 hover:text-indigo-900 dark:text-indigo-400 dark:hover:text-indigo-200">
-                                <PencilIcon className="w-5 h-5"/>
+    <div className="participation-feed">
+        {participations.map((p) => {
+            const typeChip = getTypeChip(p.type);
+            return (
+                <article key={p.id} className={`participation-card glass-panel ${typeChip.accent}`}>
+                    <div className="participation-card__header">
+                        <div>
+                            <p className="participation-card__title">{p.partTitle}</p>
+                            <p className="participation-card__meta">{p.week} · {formatDate(p.date)}</p>
+                        </div>
+                        <span className={typeChip.className}>{p.type}</span>
+                    </div>
+                    <div className="participation-card__body">
+                        <div>
+                            <p className="participation-card__publisher">{p.publisherName}</p>
+                            <p className="participation-card__notes">Designação gerenciada automaticamente a partir das regras e históricos.</p>
+                        </div>
+                        <div className="card-actions">
+                            <button onClick={() => onEdit(p)} className="icon-button" aria-label={`Editar participação de ${p.publisherName}`}>
+                                <PencilIcon className="w-5 h-5" />
                             </button>
-                            <button onClick={() => onDelete(p)} className="text-red-600 hover:text-red-900 dark:text-red-400 dark:hover:text-red-200">
-                                <TrashIcon className="w-5 h-5"/>
+                            <button onClick={() => onDelete(p)} className="icon-button icon-button--danger" aria-label={`Excluir participação de ${p.publisherName}`}>
+                                <TrashIcon className="w-5 h-5" />
                             </button>
                         </div>
-                    </td>
-                </tr>
-                ))}
-            </tbody>
-            </table>
-        </div>
-        
-        {/* Mobile Card View */}
-        <div className="md:hidden">
-            <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-                {participations.map((p) => (
-                    <li key={p.id} className="p-4">
-                        <div className="flex items-start justify-between">
-                            <div>
-                                <p className="text-sm font-medium text-gray-900 dark:text-gray-100">{p.publisherName}</p>
-                                <p className="text-sm text-gray-500 dark:text-gray-400">{p.week}</p>
-                                 <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">{p.partTitle}</p>
-                            </div>
-                            <div className="flex-shrink-0 flex items-center space-x-2">
-                                <button onClick={() => onEdit(p)} className="p-1 text-indigo-600 hover:text-indigo-900 dark:text-indigo-400 dark:hover:text-indigo-200">
-                                    <PencilIcon className="w-5 h-5"/>
-                                </button>
-                                <button onClick={() => onDelete(p)} className="p-1 text-red-600 hover:text-red-900 dark:text-red-400 dark:hover:text-red-200">
-                                    <TrashIcon className="w-5 h-5"/>
-                                </button>
-                            </div>
-                        </div>
-                        <div className="mt-2">
-                             <span className={`px-2 inline-flex text-xs leading-5 font-semibold rounded-full ${getTypeColor(p.type)}`}>
-                                {p.type}
-                            </span>
-                        </div>
-                    </li>
-                ))}
-            </ul>
-        </div>
+                    </div>
+                </article>
+            );
+        })}
     </div>
   );
 };
